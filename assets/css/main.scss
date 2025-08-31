@@ -93,6 +93,7 @@ p, li, ul, ol {
   gap: 30px !important;
   padding: 0 20px !important;
   box-sizing: border-box !important;
+  align-items: flex-start !important;
 }
 
 /* 调整侧边栏宽度和间距 - 30% */
@@ -101,6 +102,7 @@ p, li, ul, ol {
   max-width: 30% !important;
   flex-shrink: 0 !important;
   position: relative !important;
+  order: 1 !important;
 }
 
 /* 调整主内容区域 - 70% */
@@ -109,16 +111,29 @@ p, li, ul, ol {
   max-width: 70% !important;
   flex-grow: 1 !important;
   position: relative !important;
+  order: 2 !important;
 }
 
 /* 调整容器宽度 */
 .container {
-  max-width: 1200px !important;
+  max-width: none !important;
+  width: 100% !important;
 }
 
 /* 调整网格布局 */
 .grid__item {
   max-width: 100% !important;
+}
+
+/* 确保主内容区域正确显示 */
+.page__content .archive {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+.page__content .archive__item {
+  width: 100% !important;
+  max-width: none !important;
 }
 
 /* Publications 容器样式 */
@@ -1164,6 +1179,26 @@ p, li, ul, ol {
   z-index: 2;
 }
 
+/* 强制布局修复 */
+.page__inner-wrap {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+}
+
+.sidebar {
+  flex: 0 0 30% !important;
+  width: 30% !important;
+  max-width: 30% !important;
+}
+
+#main {
+  flex: 1 1 70% !important;
+  width: 70% !important;
+  max-width: 70% !important;
+}
+
 /* 导航栏样式 - 横贯整个宽度并固定在顶部 */
 .masthead {
   position: fixed !important;
@@ -1172,23 +1207,28 @@ p, li, ul, ol {
   right: 0 !important;
   width: 100% !important;
   z-index: 1000 !important;
-  background: rgba(255, 255, 255, 0.95) !important;
-  backdrop-filter: blur(10px) !important;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1) !important;
+  background: rgba(255, 255, 255, 0.85) !important;
+  backdrop-filter: blur(15px) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.08) !important;
+  height: 100px !important;
 }
 
 /* 为固定导航栏留出空间 */
 body {
-  padding-top: 80px !important;
+  padding-top: 100px !important;
 }
 
 /* 导航栏内容居中 */
 .masthead__inner-wrap {
   max-width: none !important;
   width: 100% !important;
-  padding: 0 20px !important;
+  padding: 0 40px !important;
   box-sizing: border-box !important;
+  height: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 /* 导航菜单样式 */
@@ -1197,18 +1237,43 @@ body {
   justify-content: center !important;
   align-items: center !important;
   height: 100% !important;
+  gap: 40px !important;
 }
 
 .masthead__menu-item {
-  margin: 0 15px !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .masthead__menu-item a {
   color: #2c3e50 !important;
   font-weight: 600 !important;
-  transition: color 0.3s ease !important;
+  font-size: 1.1em !important;
+  transition: all 0.3s ease !important;
+  padding: 12px 20px !important;
+  border-radius: 8px !important;
+  text-decoration: none !important;
+  position: relative !important;
 }
 
 .masthead__menu-item a:hover {
   color: #3498db !important;
+  background: rgba(52, 152, 219, 0.1) !important;
+  transform: translateY(-2px) !important;
+}
+
+.masthead__menu-item a::after {
+  content: '' !important;
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 50% !important;
+  width: 0 !important;
+  height: 2px !important;
+  background: #3498db !important;
+  transition: all 0.3s ease !important;
+  transform: translateX(-50%) !important;
+}
+
+.masthead__menu-item a:hover::after {
+  width: 80% !important;
 }
