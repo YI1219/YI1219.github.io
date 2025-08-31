@@ -3,6 +3,127 @@ layout: single
 author_profile: true
 ---
 
+## Publications {#publications}
+
+### 2025
+
+#### Conference Papers
+
+<div class="publication-item">
+  <div class="publication-title">
+    <strong>Asymmetric Pre-aligned Anchor Contrastive Enhanced Diffusion Hashing Model for Incomplete Multimodal Retrieval</strong>
+  </div>
+  <div class="publication-authors">
+    <em>Yang Yu, Meiyu Liang, Wei Huang, Juncheng Zheng, Kangkang Lu, Junping Du</em>
+  </div>
+  <div class="publication-venue">
+    <strong>ACM International Conference on Multimedia (ACM MM)</strong>
+  </div>
+  <div class="publication-abstract">
+    Proposed a novel multi-modal diffusion hashing model for Incomplete Multi-modal Hashing Retrieval, featuring Asymmetric Pre-alignment strategy and Anchor Contrastive Enhanced Diffusion Hash mechanism.
+  </div>
+</div>
+
+### 2024
+
+#### Conference Papers
+
+<div class="publication-item">
+  <div class="publication-title">
+    <strong>Unsupervised Multimodal Graph Contrastive Semantic Anchor Space Dynamic Knowledge Distillation Network for Cross-media Hash Retrieval</strong>
+  </div>
+  <div class="publication-authors">
+    <em>Yang Yu, Meiyu Liang, Mengran Yin, Kangkang Lu, Junping Du, Zhe Xue</em>
+  </div>
+  <div class="publication-venue">
+    <strong>International Conference on Data Engineering (ICDE)</strong>
+  </div>
+  <div class="publication-abstract">
+    Developed GASKN, a novel unsupervised multimodal graph contrastive semantic anchor space dynamic knowledge distillation network for cross-media hash retrieval.
+  </div>
+</div>
+
+<div class="publication-item">
+  <div class="publication-title">
+    <strong>Knowledge Graph Enhanced Multimodal Transformer for Image-Text Retrieval</strong>
+  </div>
+  <div class="publication-authors">
+    <em>Juncheng Zheng, Meiyu Liang, Yang Yu, Yawen Li, Zhe Xue</em>
+  </div>
+  <div class="publication-venue">
+    <strong>International Conference on Data Engineering (ICDE)</strong>
+  </div>
+  <div class="publication-abstract">
+    Proposed a multimodal knowledge-enhanced multimodal transformer combining coarse-grained and fine-grained representation learning.
+  </div>
+</div>
+
+<div class="publication-item">
+  <div class="publication-title">
+    <strong>Multimodal Knowledge Graph-guided Cross-Modal Graph Network for Image-text Retrieval</strong>
+  </div>
+  <div class="publication-authors">
+    <em>Juncheng Zheng, Meiyu Liang, Yang Yu, Junping Du, Zhe Xue</em>
+  </div>
+  <div class="publication-venue">
+    <strong>International Conference on Big Data and Smart Computing (BigComp)</strong>
+  </div>
+  <div class="publication-abstract">
+    Constructed a novel multimodal knowledge graph-guided cross-modal graph network for fine-grained and coarse-grained image-text alignment.
+  </div>
+</div>
+
+#### Journal Papers
+
+<div class="publication-item">
+  <div class="publication-title">
+    <strong>Query Aware Cross-modal Dual Contrastive Learning Network for Multi-modal Video Moment Retrieval</strong>
+  </div>
+  <div class="publication-authors">
+    <em>Mengran Yin, Meiyu Liang, Yang Yu, Xiaowen Cao, Junping Du, Zhe Xue</em>
+  </div>
+  <div class="publication-venue">
+    <strong>Journal of Software</strong>
+  </div>
+  <div class="publication-abstract">
+    Built a query-aware cross-modal contrastive learning network for multi-modal video moment retrieval (QACLN).
+  </div>
+</div>
+
+<div class="publication-item">
+  <div class="publication-title">
+    <strong>Structures Aware Fine-Grained Contrastive Adversarial Hashing for Cross-Media Retrieval</strong>
+  </div>
+  <div class="publication-authors">
+    <em>Meiyu Liang, Yawen Li, Yang Yu, Xiaowen Cao, Zhe Xue, Ang Li</em>
+  </div>
+  <div class="publication-venue">
+    <strong>IEEE Transactions on Knowledge and Data Engineering</strong>
+  </div>
+  <div class="publication-abstract">
+    Established a cross-media contrastive adversarial hash network for cross-media hashing.
+  </div>
+</div>
+
+### 2022
+
+#### Conference Papers
+
+<div class="publication-item">
+  <div class="publication-title">
+    <strong>Semantic Structure Enhanced Contrastive Adversarial Hash Network for Cross-media Representation Learning</strong>
+  </div>
+  <div class="publication-authors">
+    <em>Meiyu Liang, Junping Du, Xiaowen Cao, Yang Yu, Kangkang Lu, Zhe Xue, Min Zhang</em>
+  </div>
+  <div class="publication-venue">
+    <strong>30th ACM International Conference on Multimedia</strong>
+  </div>
+  <div class="publication-abstract">
+    Developed SCAHN, a novel semantic structure enhanced contrastive adversarial hash network for cross-media representation learning.
+  </div>
+</div>
+
 ## Education {#education}
 
 - **Doctor of Philosophy** (2025 - Present)
@@ -18,57 +139,6 @@ author_profile: true
 - **Bachelor's Degree** (2018 - 2022)
   - Hainan University
   - Major: Software Engineering
-
-## Publications {#publications}
-
-### 2025
-
-#### Conference Papers
-
-1. **Asymmetric Pre-aligned Anchor Contrastive Enhanced Diffusion Hashing Model for Incomplete Multimodal Retrieval**
-   - Authors: Yang Yu, Meiyu Liang, Wei Huang, Juncheng Zheng, Kangkang Lu, Junping Du
-   - Conference: ACM International Conference on Multimedia (ACM MM)
-   - Abstract: Proposed a novel multi-modal diffusion hashing model for Incomplete Multi-modal Hashing Retrieval, featuring Asymmetric Pre-alignment strategy and Anchor Contrastive Enhanced Diffusion Hash mechanism.
-
-### 2024
-
-#### Conference Papers
-
-1. **Unsupervised Multimodal Graph Contrastive Semantic Anchor Space Dynamic Knowledge Distillation Network for Cross-media Hash Retrieval**
-   - Authors: Yang Yu, Meiyu Liang, Mengran Yin, Kangkang Lu, Junping Du, Zhe Xue
-   - Conference: International Conference on Data Engineering (ICDE)
-   - Abstract: Developed GASKN, a novel unsupervised multimodal graph contrastive semantic anchor space dynamic knowledge distillation network for cross-media hash retrieval.
-
-2. **Knowledge Graph Enhanced Multimodal Transformer for Image-Text Retrieval**
-   - Authors: Juncheng Zheng, Meiyu Liang, Yang Yu, Yawen Li, Zhe Xue
-   - Conference: International Conference on Data Engineering (ICDE)
-   - Abstract: Proposed a multimodal knowledge-enhanced multimodal transformer combining coarse-grained and fine-grained representation learning.
-
-3. **Multimodal Knowledge Graph-guided Cross-Modal Graph Network for Image-text Retrieval**
-   - Authors: Juncheng Zheng, Meiyu Liang, Yang Yu, Junping Du, Zhe Xue
-   - Conference: International Conference on Big Data and Smart Computing (BigComp)
-   - Abstract: Constructed a novel multimodal knowledge graph-guided cross-modal graph network for fine-grained and coarse-grained image-text alignment.
-
-#### Journal Papers
-
-1. **Query Aware Cross-modal Dual Contrastive Learning Network for Multi-modal Video Moment Retrieval**
-   - Authors: Mengran Yin, Meiyu Liang, Yang Yu, Xiaowen Cao, Junping Du, Zhe Xue
-   - Journal: Journal of Software
-   - Abstract: Built a query-aware cross-modal contrastive learning network for multi-modal video moment retrieval (QACLN).
-
-2. **Structures Aware Fine-Grained Contrastive Adversarial Hashing for Cross-Media Retrieval**
-   - Authors: Meiyu Liang, Yawen Li, Yang Yu, Xiaowen Cao, Zhe Xue, Ang Li
-   - Journal: IEEE Transactions on Knowledge and Data Engineering
-   - Abstract: Established a cross-media contrastive adversarial hash network for cross-media hashing.
-
-### 2022
-
-#### Conference Papers
-
-1. **Semantic Structure Enhanced Contrastive Adversarial Hash Network for Cross-media Representation Learning**
-   - Authors: Meiyu Liang, Junping Du, Xiaowen Cao, Yang Yu, Kangkang Lu, Zhe Xue, Min Zhang
-   - Conference: 30th ACM International Conference on Multimedia
-   - Abstract: Developed SCAHN, a novel semantic structure enhanced contrastive adversarial hash network for cross-media representation learning.
 
 ## Research Experience {#experience}
 
@@ -124,13 +194,7 @@ author_profile: true
 ### 2019
 - **Special Comprehensive Scholarship in the Academic Year 2018-2019, Hainan University** (11/2019)
 
-## Skills {#skills}
-
-### Programming Languages
-- Python, C++, Java, JavaScript
-
-### Frameworks & Libraries
-- PyTorch, TensorFlow, Scikit-learn, NumPy, Pandas, MindSpore
+## Others {#others}
 
 ### Research Areas
 - Cross-modal Retrieval, Image-text Retrieval, Video Retrieval

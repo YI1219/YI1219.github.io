@@ -2,16 +2,16 @@
 main:
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "Education"
-    url: /#education
   - title: "Publications"
     url: /#publications
+  - title: "Education"
+    url: /#education
   - title: "Experience"
     url: /#experience
   - title: "Awards"
     url: /#awards
-  - title: "Skills"
-    url: /#skills
+  - title: "Others"
+    url: /#others
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
