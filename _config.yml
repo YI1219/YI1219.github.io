@@ -10,7 +10,7 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
+theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -115,28 +115,23 @@ analytics:
 author:
   name             : "Yang YU"
   avatar           : "/assets/images/YI_avatar.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "I am currently a Ph.D student at **The Hong Kong Polytechnic University**. My research focuses on LLM Agents, Cross-Modal/Multimodal Learning and Federated Learning."
   location         : "Hong Kong"
+  affiliation      : "The Hong Kong Polytechnic University"
   email            : "altair.yu@connect.polyu.hk"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:altair.yu@connect.polyu.hk"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=GUjfLwMAAAAJ"
+    # - label: "ORCID"
+    #   icon: "fab fa-fw fa-orcid"
+    #   url: "https://orcid.org/0009-0000-4686-1170"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/YI1219"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
 
 # Site Footer
 footer:
@@ -160,6 +155,7 @@ footer:
       icon: "fab fa-fw fa-instagram"
       # url:
   since: "2013"
+  hide_copyright: true  # 隐藏底部版权信息
 
 
 # Reading Files
