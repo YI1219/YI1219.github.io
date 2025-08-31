@@ -1031,6 +1031,11 @@ p, li, ul, ol {
   display: none !important;
 }
 
+/* 隐藏版权信息 */
+.page__footer-copyright {
+  display: none !important;
+}
+
 /* 响应式设计 */
 @media (max-width: 768px) {
   .publication-header,
