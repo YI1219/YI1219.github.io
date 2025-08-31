@@ -88,15 +88,23 @@ p, li, ul, ol {
   max-width: 100% !important;
 }
 
-/* 调整侧边栏宽度 */
+/* 调整侧边栏宽度和间距 */
 .sidebar {
-  width: 300px !important;
-  max-width: 300px !important;
+  width: 280px !important;
+  max-width: 280px !important;
+  margin-right: 20px !important;
 }
 
 /* 调整主内容区域 */
 #main {
-  max-width: 100% !important;
+  max-width: calc(100% - 300px) !important;
+  margin-left: 0 !important;
+}
+
+/* 调整页面布局 */
+.page__inner-wrap {
+  display: flex !important;
+  gap: 20px !important;
 }
 
 /* 调整容器宽度 */
@@ -257,22 +265,21 @@ p, li, ul, ol {
   margin-top: 12px;
 }
 
-/* Education 样式 - 全新设计 */
+/* Education 样式 - 现代化设计 */
 .education-container {
   max-width: 100%;
   margin: 0 auto;
 }
 
 .education-card {
-  background: #ffffff;
-  border: none;
-  border-radius: 20px;
-  margin-bottom: 30px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  transition: all 0.4s ease;
+  background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+  border: 2px solid #e2e8f0;
+  border-radius: 24px;
+  margin-bottom: 35px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   overflow: hidden;
   position: relative;
-  transform: perspective(1000px) rotateX(0deg);
 }
 
 .education-card::before {
@@ -281,116 +288,103 @@ p, li, ul, ol {
   top: 0;
   left: 0;
   right: 0;
-  height: 6px;
-  background: linear-gradient(90deg, #667eea, #764ba2, #f093fb);
+  height: 8px;
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6, #06b6d4);
+  border-radius: 24px 24px 0 0;
 }
 
 .education-card:hover {
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-  transform: perspective(1000px) rotateX(2deg) translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+  transform: translateY(-8px);
+  border-color: #3b82f6;
 }
 
 .education-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 30px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 28px 32px;
+  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
   color: white;
   position: relative;
-  clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
 }
 
 .education-header::after {
   content: '🎓';
   position: absolute;
-  right: 30px;
+  right: 32px;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 1.5em;
-  opacity: 0.9;
-  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+  font-size: 1.8em;
+  opacity: 0.8;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
 }
 
 .education-degree {
-  font-size: 1.4em;
-  font-weight: 800;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
-  letter-spacing: 0.5px;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  letter-spacing: 0.3px;
 }
 
 .education-period {
-  background: rgba(255, 255, 255, 0.2);
-  padding: 8px 18px;
-  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 10px 20px;
+  border-radius: 30px;
   font-size: 1em;
-  font-weight: 700;
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-weight: 600;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .education-content {
-  padding: 30px;
+  padding: 32px;
   background: #ffffff;
   position: relative;
 }
 
-.education-content::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 30px;
-  right: 30px;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, #e0e0e0, transparent);
-}
-
 .education-institution {
-  color: #2c3e50;
-  font-size: 1.5em;
-  font-weight: 800;
-  margin-bottom: 20px;
+  color: #1e293b;
+  font-size: 1.6em;
+  font-weight: 700;
+  margin-bottom: 24px;
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 16px;
   position: relative;
 }
 
 .education-institution::before {
   content: '🏫';
-  font-size: 1.3em;
-  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+  font-size: 1.4em;
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.1));
 }
 
 .education-details {
-  color: #34495e;
+  color: #475569;
   font-size: 1em;
-  line-height: 1.8;
+  line-height: 1.7;
 }
 
 .education-supervisor,
 .education-research,
 .education-major {
-  margin-bottom: 15px;
-  padding: 12px 18px;
-  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
-  border-radius: 12px;
-  border-left: 4px solid #667eea;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin-bottom: 18px;
+  padding: 16px 20px;
+  background: linear-gradient(135deg, #f1f5f9 0%, #ffffff 100%);
+  border-radius: 16px;
+  border-left: 5px solid #3b82f6;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
   position: relative;
+  transition: all 0.3s ease;
 }
 
-.education-supervisor::before,
-.education-research::before,
-.education-major::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 2px;
-  background: linear-gradient(90deg, #667eea, #764ba2);
-  border-radius: 12px 12px 0 0;
+.education-supervisor:hover,
+.education-research:hover,
+.education-major:hover {
+  transform: translateX(4px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
 }
 
 /* Experience 样式 */
@@ -424,15 +418,14 @@ p, li, ul, ol {
 }
 
 .experience-card {
-  background: #ffffff;
-  border: none;
-  border-radius: 20px;
-  margin-bottom: 30px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  transition: all 0.4s ease;
+  background: linear-gradient(135deg, #fef2f2 0%, #ffffff 100%);
+  border: 2px solid #fecaca;
+  border-radius: 24px;
+  margin-bottom: 35px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   overflow: hidden;
   position: relative;
-  transform: perspective(1000px) rotateX(0deg);
 }
 
 .experience-card::before {
@@ -441,148 +434,142 @@ p, li, ul, ol {
   top: 0;
   left: 0;
   right: 0;
-  height: 6px;
-  background: linear-gradient(90deg, #ff6b6b, #ee5a24, #ff6348);
+  height: 8px;
+  background: linear-gradient(90deg, #ef4444, #f97316, #f59e0b);
+  border-radius: 24px 24px 0 0;
 }
 
 .experience-card:hover {
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-  transform: perspective(1000px) rotateX(2deg) translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+  transform: translateY(-8px);
+  border-color: #ef4444;
 }
 
 .experience-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 30px;
-  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+  padding: 28px 32px;
+  background: linear-gradient(135deg, #ef4444 0%, #f97316 100%);
   color: white;
   position: relative;
-  clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
 }
 
 .experience-header::after {
   content: '💼';
   position: absolute;
-  right: 30px;
+  right: 32px;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 1.5em;
-  opacity: 0.9;
-  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+  font-size: 1.8em;
+  opacity: 0.8;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
 }
 
 .experience-title {
-  font-size: 1.4em;
-  font-weight: 800;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
-  letter-spacing: 0.5px;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  letter-spacing: 0.3px;
 }
 
 .experience-period {
-  background: rgba(255, 255, 255, 0.2);
-  padding: 8px 18px;
-  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 10px 20px;
+  border-radius: 30px;
   font-size: 1em;
-  font-weight: 700;
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-weight: 600;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .experience-content {
-  padding: 30px;
+  padding: 32px;
   background: #ffffff;
   position: relative;
 }
 
-.experience-content::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 30px;
-  right: 30px;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, #e0e0e0, transparent);
-}
-
 .experience-institution {
-  color: #2c3e50;
-  font-size: 1.5em;
-  font-weight: 800;
-  margin-bottom: 15px;
+  color: #1e293b;
+  font-size: 1.6em;
+  font-weight: 700;
+  margin-bottom: 20px;
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 16px;
   position: relative;
 }
 
 .experience-institution::before {
   content: '🏢';
-  font-size: 1.3em;
-  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+  font-size: 1.4em;
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.1));
 }
 
 .experience-department {
-  color: #7f8c8d;
+  color: #64748b;
   font-size: 1em;
   font-style: italic;
-  margin-bottom: 20px;
-  padding: 12px 18px;
-  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
-  border-radius: 12px;
-  border-left: 4px solid #ff6b6b;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin-bottom: 24px;
+  padding: 16px 20px;
+  background: linear-gradient(135deg, #fef2f2 0%, #ffffff 100%);
+  border-radius: 16px;
+  border-left: 5px solid #ef4444;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
   position: relative;
+  transition: all 0.3s ease;
 }
 
-.experience-department::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 2px;
-  background: linear-gradient(90deg, #ff6b6b, #ee5a24);
-  border-radius: 12px 12px 0 0;
+.experience-department:hover {
+  transform: translateX(4px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
 }
 
 .experience-responsibilities h5 {
-  color: #34495e;
-  font-size: 1.2em;
+  color: #1e293b;
+  font-size: 1.3em;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 18px;
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 8px 0;
-  border-bottom: 2px solid #ff6b6b;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 3px solid #ef4444;
+  position: relative;
 }
 
 .experience-responsibilities h5::before {
   content: '📋';
-  font-size: 1.1em;
+  font-size: 1.2em;
   filter: drop-shadow(0 1px 2px rgba(0,0,0,0.1));
 }
 
 .experience-responsibilities ul {
-  color: #34495e;
+  color: #475569;
   font-size: 1em;
-  line-height: 1.8;
-  padding-left: 30px;
+  line-height: 1.7;
+  padding-left: 32px;
 }
 
 .experience-responsibilities li {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   position: relative;
-  padding-left: 5px;
+  padding-left: 8px;
+  transition: all 0.3s ease;
+}
+
+.experience-responsibilities li:hover {
+  transform: translateX(4px);
+  color: #1e293b;
 }
 
 .experience-responsibilities li::before {
   content: '▶';
-  color: #ff6b6b;
+  color: #ef4444;
   font-weight: bold;
   position: absolute;
-  left: -20px;
+  left: -24px;
   font-size: 1.1em;
   filter: drop-shadow(0 1px 2px rgba(0,0,0,0.1));
 }

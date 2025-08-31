@@ -246,8 +246,6 @@ classes: wide
       </div>
     </div>
   </div>
-
-  </div>
 </div>
 
 ## Academic Projects {#projects}
