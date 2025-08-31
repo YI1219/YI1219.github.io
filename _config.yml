@@ -120,9 +120,9 @@ author:
   affiliation      : "The Hong Kong Polytechnic University"
   email            : "altair.yu@connect.polyu.hk"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:altair.yu@connect.polyu.hk"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "mailto:altair.yu@connect.polyu.hk"
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=GUjfLwMAAAAJ"

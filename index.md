@@ -3,93 +3,126 @@ layout: single
 author_profile: true
 ---
 
-## Biography {#biography}
-
-I am currently a Ph.D student at **The Hong Kong Polytechnic University**. My research focuses on **LLM Agents**, **Cross-Modal/Multimodal Learning** and **Federated Learning**.
-
-## Research Interests {#research}
-
-- **Large Language Model Agents**: Autonomous agents powered by LLMs
-- **Cross-Modal/Multimodal Learning**: Learning across different modalities (text, image, audio, etc.)
-- **Federated Learning**: Distributed machine learning with privacy preservation
-
 ## Education {#education}
 
-- **Ph.D. in Computer Science** (2023 - Present)
+- **Doctor of Philosophy** (2025 - Present)
   - The Hong Kong Polytechnic University
-  - Supervisor: [Your Supervisor's Name]
+  - Supervisor: Hongxia Yang
+  - Research Interest: LLM Agents, Multimodal RAG, MLLM
 
-- **Master's Degree** (Year - Year)
-  - [University Name]
-  - Thesis: [Thesis Title]
+- **Master's Degree** (2022 - 2025)
+  - Beijing University of Posts and Telecommunications
+  - Supervisor: Meiyu Liang
+  - Research: Cross-modal Retrieval, Image-text Retrieval, Video Retrieval, Federated Learning
 
-- **Bachelor's Degree** (Year - Year)
-  - [University Name]
-  - Major: [Your Major]
+- **Bachelor's Degree** (2018 - 2022)
+  - Hainan University
+  - Major: Software Engineering
 
 ## Publications {#publications}
+
+### 2025
+
+#### Conference Papers
+
+1. **Asymmetric Pre-aligned Anchor Contrastive Enhanced Diffusion Hashing Model for Incomplete Multimodal Retrieval**
+   - Authors: Yang Yu, Meiyu Liang, Wei Huang, Juncheng Zheng, Kangkang Lu, Junping Du
+   - Conference: ACM International Conference on Multimedia (ACM MM)
+   - Abstract: Proposed a novel multi-modal diffusion hashing model for Incomplete Multi-modal Hashing Retrieval, featuring Asymmetric Pre-alignment strategy and Anchor Contrastive Enhanced Diffusion Hash mechanism.
 
 ### 2024
 
 #### Conference Papers
 
-1. **Paper Title 1**
-   - Authors: Yang YU, [Co-authors]
-   - Conference: [Conference Name] (Year)
-   - Abstract: [Brief abstract]
-   - [DOI/Link] | [Code] | [PDF]
+1. **Unsupervised Multimodal Graph Contrastive Semantic Anchor Space Dynamic Knowledge Distillation Network for Cross-media Hash Retrieval**
+   - Authors: Yang Yu, Meiyu Liang, Mengran Yin, Kangkang Lu, Junping Du, Zhe Xue
+   - Conference: International Conference on Data Engineering (ICDE)
+   - Abstract: Developed GASKN, a novel unsupervised multimodal graph contrastive semantic anchor space dynamic knowledge distillation network for cross-media hash retrieval.
 
-2. **Paper Title 2**
-   - Authors: Yang YU, [Co-authors]
-   - Conference: [Conference Name] (Year)
-   - Abstract: [Brief abstract]
-   - [DOI/Link] | [Code] | [PDF]
+2. **Knowledge Graph Enhanced Multimodal Transformer for Image-Text Retrieval**
+   - Authors: Juncheng Zheng, Meiyu Liang, Yang Yu, Yawen Li, Zhe Xue
+   - Conference: International Conference on Data Engineering (ICDE)
+   - Abstract: Proposed a multimodal knowledge-enhanced multimodal transformer combining coarse-grained and fine-grained representation learning.
+
+3. **Multimodal Knowledge Graph-guided Cross-Modal Graph Network for Image-text Retrieval**
+   - Authors: Juncheng Zheng, Meiyu Liang, Yang Yu, Junping Du, Zhe Xue
+   - Conference: International Conference on Big Data and Smart Computing (BigComp)
+   - Abstract: Constructed a novel multimodal knowledge graph-guided cross-modal graph network for fine-grained and coarse-grained image-text alignment.
 
 #### Journal Papers
 
-1. **Journal Paper Title 1**
-   - Authors: Yang YU, [Co-authors]
-   - Journal: [Journal Name] (Year)
-   - Abstract: [Brief abstract]
-   - [DOI/Link] | [Code] | [PDF]
+1. **Query Aware Cross-modal Dual Contrastive Learning Network for Multi-modal Video Moment Retrieval**
+   - Authors: Mengran Yin, Meiyu Liang, Yang Yu, Xiaowen Cao, Junping Du, Zhe Xue
+   - Journal: Journal of Software
+   - Abstract: Built a query-aware cross-modal contrastive learning network for multi-modal video moment retrieval (QACLN).
 
-### 2023
+2. **Structures Aware Fine-Grained Contrastive Adversarial Hashing for Cross-Media Retrieval**
+   - Authors: Meiyu Liang, Yawen Li, Yang Yu, Xiaowen Cao, Zhe Xue, Ang Li
+   - Journal: IEEE Transactions on Knowledge and Data Engineering
+   - Abstract: Established a cross-media contrastive adversarial hash network for cross-media hashing.
+
+### 2022
 
 #### Conference Papers
 
-1. **Paper Title 3**
-   - Authors: Yang YU, [Co-authors]
-   - Conference: [Conference Name] (Year)
-   - Abstract: [Brief abstract]
-   - [DOI/Link] | [Code] | [PDF]
-
-### Preprints
-
-1. **Preprint Title**
-   - Authors: Yang YU, [Co-authors]
-   - arXiv: [arXiv ID]
-   - Abstract: [Brief abstract]
-   - [Link] | [Code]
+1. **Semantic Structure Enhanced Contrastive Adversarial Hash Network for Cross-media Representation Learning**
+   - Authors: Meiyu Liang, Junping Du, Xiaowen Cao, Yang Yu, Kangkang Lu, Zhe Xue, Min Zhang
+   - Conference: 30th ACM International Conference on Multimedia
+   - Abstract: Developed SCAHN, a novel semantic structure enhanced contrastive adversarial hash network for cross-media representation learning.
 
 ## Research Experience {#experience}
 
-### Research Assistant (Year - Year)
-- **Institution**: [Institution Name]
-- **Project**: [Project Description]
-- **Responsibilities**: [Your responsibilities]
+### Natural Language Algorithm Engineer (10/2023 - Present)
+- **Institution**: ByteDance (E-commerce on TikTok)
+- **Department**: Backbone Construction Group for E-commerce Platform Governance
+- **Responsibilities**:
+  - Research and development of the backbone
+  - E-commerce platform content governance, model review and automatic rejection mechanism
+  - Enhanced performance of downstream tasks using pre-training techniques
+  - Developed novel pre-training approach combining LLM mask autoencoder and LLM next token prediction
+  - Achieved 7% increase in precision for downstream QA tasks
 
-### Research Intern (Year - Year)
-- **Institution**: [Institution Name]
-- **Project**: [Project Description]
-- **Achievements**: [Key achievements]
+### Natural Language Algorithm Engineer (04/2023 - 07/2023)
+- **Institution**: AI Research Institute, New Oriental Education & Technology Group
+- **Department**: Speech Language Group of Natural Language Processing Department
+- **Responsibilities**:
+  - Grammar error correction and intelligent question answering
+  - Optimized grammar error correction model
+  - Developed intelligent question-answering model
+
+### Academic Projects
+
+- **Project Member**: Cross-media Education Big Data Personalised Recommendation and Search System based on Deep Learning (National Natural Science Foundation of China)
+- **Project Member**: Cross-modal Big Data Semantic Recognition and Search based on MindSpore (Chinese Association for Artificial Intelligence - Huawei MindSpore Academic Award Fund)
+- **Project Leader**: Unified Semantic Representation Learning and Intelligent Search of Cross-Media Data Enhanced by Multi-modal Semantic Fusion (Graduate Innovation and Entrepreneurship Programme, Type A)
+- **Project Member**: A Federated Learning Method for Quality and Efficiency Optimization of Distributed Associative Big Data (National Natural Science Foundation of China)
 
 ## Awards & Honors {#awards}
 
-- **Award Name** (Year)
-  - [Award description]
+### 2024
+- **National Postgraduate Scholarship** (11/2024)
+- **First Prize of Scholarship for Postgraduate Students, Beijing University of Posts and Telecommunications** (11/2024)
 
-- **Scholarship Name** (Year)
-  - [Scholarship description]
+### 2023
+- **Shenzhen Stock Exchange Enterprise Scholarship** (11/2023)
+- **First Prize of Scholarship for Postgraduate Students, Beijing University of Posts and Telecommunications** (11/2023)
+
+### 2022
+- **First Prize of Scholarship for Postgraduate Students, Beijing University of Posts and Telecommunications** (11/2022)
+- **Outstanding Graduate of Hainan University** (09/2022)
+
+### 2021
+- **First Prize in the Provincial Contest in Hainan in the 2020 China Collegiate Computing Contest - Group Programming Ladder Tournament** (01/2021)
+
+### 2020
+- **Merit Student in the Academic Year 2019-2020, Hainan University** (11/2020)
+- **First-class Comprehensive Scholarship in the Academic Year 2019-2020, Hainan University** (11/2020)
+- **Second Prize in Hainan Competition Area, National 3D Innovative Design Competition** (10/2020)
+- **Third Prize in South China in the 2020 China Collegiate Computing Contest - WeChat Mini Programme Application Development Competition**
+- **Third Prize in the Intelligent Manufacturing Innovation and Creativity Contest in the 5th National Applied Talents Comprehensive Skills Competition, Hainan University** (12/2019)
+
+### 2019
+- **Special Comprehensive Scholarship in the Academic Year 2018-2019, Hainan University** (11/2019)
 
 ## Skills {#skills}
 
@@ -97,16 +130,22 @@ I am currently a Ph.D student at **The Hong Kong Polytechnic University**. My re
 - Python, C++, Java, JavaScript
 
 ### Frameworks & Libraries
-- PyTorch, TensorFlow, Scikit-learn, NumPy, Pandas
+- PyTorch, TensorFlow, Scikit-learn, NumPy, Pandas, MindSpore
 
-### Tools & Platforms
-- Git, Docker, AWS, Google Cloud Platform
+### Research Areas
+- Cross-modal Retrieval, Image-text Retrieval, Video Retrieval
+- Multimodal Learning, Knowledge Distillation, Hash Learning
+- Federated Learning, Natural Language Processing
+- Large Language Models, RAG (Retrieval-Augmented Generation)
 
-## Contact {#contact}
+### Software & Patents
+- **Software Copyright**: Quangou Hainan v1.0 (Register No.: 2023SR0154035)
+- **Utility Model Patent**: An Intelligent Huarong Dao Storage Cabinet (Register No.: 201922199084.7)
+- **Patent**: A method and device for cross-modal hash retrieval based on multiple comparisons and dual-oppositional confrontation (Register No.: 202310700719.5)
 
-- **Email**: altair.yu@connect.polyu.hk
-- **Office**: [Your Office Location]
-- **Address**: [Your Address]
+### Languages & Interests
+- **Languages**: Mandarin (native), English (IELTS 6.5)
+- **Interests**: Piano, street dance, basketball, badminton, table tennis
 
 ---
 
