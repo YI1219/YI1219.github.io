@@ -19,10 +19,11 @@ classes: wide
         <div class="publication-header">
           <div class="publication-type conference">Conference</div>
           <div class="publication-year-badge">2025</div>
+          
         </div>
         <div class="publication-content">
           <h5 class="publication-title">Asymmetric Pre-aligned Anchor Contrastive Enhanced Diffusion Hashing Model for Incomplete Multimodal Retrieval</h5>
-          <div class="publication-authors">Yang Yu, Meiyu Liang, Wei Huang, Juncheng Zheng, Kangkang Lu, Junping Du</div>
+          <div class="publication-authors">Yang Yu, Meiyu Liang, Wei Huang, Juncheng Zheng, Kangkang Lu, Yawen Li, Junping Du, Zhe Xue, Wu Liu</div>
           <div class="publication-venue">ACM International Conference on Multimedia (ACM MM)</div>
           <div class="publication-abstract">
             <strong>Abstract:</strong> Proposed a novel multi-modal diffusion hashing model for Incomplete Multi-modal Hashing Retrieval, featuring Asymmetric Pre-alignment strategy and Anchor Contrastive Enhanced Diffusion Hash mechanism.
@@ -199,7 +200,7 @@ classes: wide
   </div>
 </div>
 
-## Research Experience {#experience}
+## Work Experience {#experience}
 
 <div class="experience-container">
   <div class="experience-section">
@@ -246,32 +247,34 @@ classes: wide
     </div>
   </div>
 
-  <div class="experience-section">
-    <h3 class="section-title">Academic Projects</h3>
-    
-    <div class="project-card">
-      <div class="project-role">Project Member</div>
-      <div class="project-title">Cross-media Education Big Data Personalised Recommendation and Search System based on Deep Learning</div>
-      <div class="project-funding">National Natural Science Foundation of China</div>
-    </div>
+  </div>
+</div>
 
-    <div class="project-card">
-      <div class="project-role">Project Member</div>
-      <div class="project-title">Cross-modal Big Data Semantic Recognition and Search based on MindSpore</div>
-      <div class="project-funding">Chinese Association for Artificial Intelligence - Huawei MindSpore Academic Award Fund</div>
-    </div>
+## Academic Projects {#projects}
 
-    <div class="project-card">
-      <div class="project-role">Project Leader</div>
-      <div class="project-title">Unified Semantic Representation Learning and Intelligent Search of Cross-Media Data Enhanced by Multi-modal Semantic Fusion</div>
-      <div class="project-funding">Graduate Innovation and Entrepreneurship Programme, Type A</div>
-    </div>
+<div class="projects-container">
+  <div class="project-card">
+    <div class="project-role">Project Member</div>
+    <div class="project-title">Cross-media Education Big Data Personalised Recommendation and Search System based on Deep Learning</div>
+    <div class="project-funding">National Natural Science Foundation of China</div>
+  </div>
 
-    <div class="project-card">
-      <div class="project-role">Project Member</div>
-      <div class="project-title">A Federated Learning Method for Quality and Efficiency Optimization of Distributed Associative Big Data</div>
-      <div class="project-funding">National Natural Science Foundation of China</div>
-    </div>
+  <div class="project-card">
+    <div class="project-role">Project Member</div>
+    <div class="project-title">Cross-modal Big Data Semantic Recognition and Search based on MindSpore</div>
+    <div class="project-funding">Chinese Association for Artificial Intelligence - Huawei MindSpore Academic Award Fund</div>
+  </div>
+
+  <div class="project-card">
+    <div class="project-role">Project Leader</div>
+    <div class="project-title">Unified Semantic Representation Learning and Intelligent Search of Cross-Media Data Enhanced by Multi-modal Semantic Fusion</div>
+    <div class="project-funding">Graduate Innovation and Entrepreneurship Programme, Type A</div>
+  </div>
+
+  <div class="project-card">
+    <div class="project-role">Project Member</div>
+    <div class="project-title">A Federated Learning Method for Quality and Efficiency Optimization of Distributed Associative Big Data</div>
+    <div class="project-funding">National Natural Science Foundation of China</div>
   </div>
 </div>
 
@@ -514,6 +517,4 @@ classes: wide
   </div>
 </div>
 
----
 
-*Last updated: [Current Date]*
