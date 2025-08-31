@@ -1041,6 +1041,16 @@ p, li, ul, ol {
   display: none !important;
 }
 
+/* 隐藏页脚的所有边框和背景效果 */
+.page__footer,
+.page__footer * {
+  border: none !important;
+  background: none !important;
+  box-shadow: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 /* 响应式设计 */
 @media (max-width: 768px) {
   .publication-header,
