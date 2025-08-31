@@ -483,7 +483,7 @@ classes: wide
         </div>
         <div class="language-item">
           <div class="language-icon">🇺🇸</div>
-          <div class="language-text">English (IELTS 6.5)</div>
+          <div class="language-text">English</div>
         </div>
       </div>
       <div class="interests">

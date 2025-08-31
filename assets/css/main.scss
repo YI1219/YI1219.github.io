@@ -1036,6 +1036,11 @@ p, li, ul, ol {
   display: none !important;
 }
 
+/* 隐藏整个页脚 */
+.page__footer {
+  display: none !important;
+}
+
 /* 响应式设计 */
 @media (max-width: 768px) {
   .publication-header,
