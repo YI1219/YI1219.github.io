@@ -7,4 +7,110 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-@import "custom"; // custom styles
+
+/* 自定义字体大小调整 */
+body {
+  font-size: 14px !important; /* 基础字体大小从16px减小到14px */
+}
+
+h1, .h1 {
+  font-size: 1.8em !important; /* 从2.441em减小 */
+}
+
+h2, .h2 {
+  font-size: 1.5em !important; /* 从1.953em减小 */
+}
+
+h3, .h3 {
+  font-size: 1.3em !important; /* 从1.563em减小 */
+}
+
+h4, .h4 {
+  font-size: 1.1em !important; /* 从1.25em减小 */
+}
+
+h5, .h5 {
+  font-size: 1em !important; /* 从1.125em减小 */
+}
+
+h6, .h6 {
+  font-size: 0.9em !important; /* 从1.0625em减小 */
+}
+
+/* 调整段落和列表字体大小 */
+p, li, ul, ol {
+  font-size: 14px !important;
+}
+
+/* 调整导航字体大小 */
+.nav__title {
+  font-size: 1.1em !important;
+}
+
+.nav__list .nav__items {
+  font-size: 0.9em !important;
+}
+
+/* 调整侧边栏字体大小 */
+.sidebar {
+  font-size: 13px !important;
+}
+
+.sidebar h2, .sidebar h3 {
+  font-size: 1.2em !important;
+}
+
+/* 调整页面标题字体大小 */
+.page__title {
+  font-size: 1.8em !important;
+}
+
+.page__meta {
+  font-size: 0.8em !important;
+}
+
+/* Publication项目样式 */
+.publication-item {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.publication-item:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transform: translateY(-2px);
+}
+
+.publication-title {
+  color: #2c3e50;
+  font-size: 1.1em;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.publication-authors {
+  color: #7f8c8d;
+  font-size: 0.9em;
+  margin-bottom: 6px;
+  font-style: italic;
+}
+
+.publication-venue {
+  color: #e74c3c;
+  font-size: 0.9em;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.publication-abstract {
+  color: #34495e;
+  font-size: 0.85em;
+  line-height: 1.5;
+  border-top: 1px solid #ecf0f1;
+  padding-top: 8px;
+  margin-top: 8px;
+}
