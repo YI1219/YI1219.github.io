@@ -1,215 +1,518 @@
 ---
 layout: single
 author_profile: true
+title: "Altair Yang YU - Homepage"
+classes: wide
 ---
 
 ## Publications {#publications}
 
-### 2025
+<div class="publications-container">
+  
+  <div class="publication-year">
+    <h3 class="year-title">2025</h3>
+    
+    <div class="publication-category">
+      <h4 class="category-title">Conference Papers</h4>
+      
+      <div class="publication-card">
+        <div class="publication-header">
+          <div class="publication-type conference">Conference</div>
+          <div class="publication-year-badge">2025</div>
+        </div>
+        <div class="publication-content">
+          <h5 class="publication-title">Asymmetric Pre-aligned Anchor Contrastive Enhanced Diffusion Hashing Model for Incomplete Multimodal Retrieval</h5>
+          <div class="publication-authors">Yang Yu, Meiyu Liang, Wei Huang, Juncheng Zheng, Kangkang Lu, Junping Du</div>
+          <div class="publication-venue">ACM International Conference on Multimedia (ACM MM)</div>
+          <div class="publication-abstract">
+            <strong>Abstract:</strong> Proposed a novel multi-modal diffusion hashing model for Incomplete Multi-modal Hashing Retrieval, featuring Asymmetric Pre-alignment strategy and Anchor Contrastive Enhanced Diffusion Hash mechanism.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-#### Conference Papers
+  <div class="publication-year">
+    <h3 class="year-title">2024</h3>
+    
+    <div class="publication-category">
+      <h4 class="category-title">Conference Papers</h4>
+      
+      <div class="publication-card">
+        <div class="publication-header">
+          <div class="publication-type conference">Conference</div>
+          <div class="publication-year-badge">2024</div>
+        </div>
+        <div class="publication-content">
+          <h5 class="publication-title">Unsupervised Multimodal Graph Contrastive Semantic Anchor Space Dynamic Knowledge Distillation Network for Cross-media Hash Retrieval</h5>
+          <div class="publication-authors">Yang Yu, Meiyu Liang, Mengran Yin, Kangkang Lu, Junping Du, Zhe Xue</div>
+          <div class="publication-venue">International Conference on Data Engineering (ICDE)</div>
+          <div class="publication-abstract">
+            <strong>Abstract:</strong> Developed GASKN, a novel unsupervised multimodal graph contrastive semantic anchor space dynamic knowledge distillation network for cross-media hash retrieval.
+          </div>
+        </div>
+      </div>
 
-<div class="publication-item">
-  <div class="publication-title">
-    <strong>Asymmetric Pre-aligned Anchor Contrastive Enhanced Diffusion Hashing Model for Incomplete Multimodal Retrieval</strong>
-  </div>
-  <div class="publication-authors">
-    <em>Yang Yu, Meiyu Liang, Wei Huang, Juncheng Zheng, Kangkang Lu, Junping Du</em>
-  </div>
-  <div class="publication-venue">
-    <strong>ACM International Conference on Multimedia (ACM MM)</strong>
-  </div>
-  <div class="publication-abstract">
-    Proposed a novel multi-modal diffusion hashing model for Incomplete Multi-modal Hashing Retrieval, featuring Asymmetric Pre-alignment strategy and Anchor Contrastive Enhanced Diffusion Hash mechanism.
-  </div>
-</div>
+      <div class="publication-card">
+        <div class="publication-header">
+          <div class="publication-type conference">Conference</div>
+          <div class="publication-year-badge">2024</div>
+        </div>
+        <div class="publication-content">
+          <h5 class="publication-title">Knowledge Graph Enhanced Multimodal Transformer for Image-Text Retrieval</h5>
+          <div class="publication-authors">Juncheng Zheng, Meiyu Liang, Yang Yu, Yawen Li, Zhe Xue</div>
+          <div class="publication-venue">International Conference on Data Engineering (ICDE)</div>
+          <div class="publication-abstract">
+            <strong>Abstract:</strong> Proposed a multimodal knowledge-enhanced multimodal transformer combining coarse-grained and fine-grained representation learning.
+          </div>
+        </div>
+      </div>
 
-### 2024
+      <div class="publication-card">
+        <div class="publication-header">
+          <div class="publication-type conference">Conference</div>
+          <div class="publication-year-badge">2024</div>
+        </div>
+        <div class="publication-content">
+          <h5 class="publication-title">Multimodal Knowledge Graph-guided Cross-Modal Graph Network for Image-text Retrieval</h5>
+          <div class="publication-authors">Juncheng Zheng, Meiyu Liang, Yang Yu, Junping Du, Zhe Xue</div>
+          <div class="publication-venue">International Conference on Big Data and Smart Computing (BigComp)</div>
+          <div class="publication-abstract">
+            <strong>Abstract:</strong> Constructed a novel multimodal knowledge graph-guided cross-modal graph network for fine-grained and coarse-grained image-text alignment.
+          </div>
+        </div>
+      </div>
+    </div>
 
-#### Conference Papers
+    <div class="publication-category">
+      <h4 class="category-title">Journal Papers</h4>
+      
+      <div class="publication-card">
+        <div class="publication-header">
+          <div class="publication-type journal">Journal</div>
+          <div class="publication-year-badge">2024</div>
+        </div>
+        <div class="publication-content">
+          <h5 class="publication-title">Query Aware Cross-modal Dual Contrastive Learning Network for Multi-modal Video Moment Retrieval</h5>
+          <div class="publication-authors">Mengran Yin, Meiyu Liang, Yang Yu, Xiaowen Cao, Junping Du, Zhe Xue</div>
+          <div class="publication-venue">Journal of Software</div>
+          <div class="publication-abstract">
+            <strong>Abstract:</strong> Built a query-aware cross-modal contrastive learning network for multi-modal video moment retrieval (QACLN).
+          </div>
+        </div>
+      </div>
 
-<div class="publication-item">
-  <div class="publication-title">
-    <strong>Unsupervised Multimodal Graph Contrastive Semantic Anchor Space Dynamic Knowledge Distillation Network for Cross-media Hash Retrieval</strong>
+      <div class="publication-card">
+        <div class="publication-header">
+          <div class="publication-type journal">Journal</div>
+          <div class="publication-year-badge">2024</div>
+        </div>
+        <div class="publication-content">
+          <h5 class="publication-title">Structures Aware Fine-Grained Contrastive Adversarial Hashing for Cross-Media Retrieval</h5>
+          <div class="publication-authors">Meiyu Liang, Yawen Li, Yang Yu, Xiaowen Cao, Zhe Xue, Ang Li</div>
+          <div class="publication-venue">IEEE Transactions on Knowledge and Data Engineering</div>
+          <div class="publication-abstract">
+            <strong>Abstract:</strong> Established a cross-media contrastive adversarial hash network for cross-media hashing.
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="publication-authors">
-    <em>Yang Yu, Meiyu Liang, Mengran Yin, Kangkang Lu, Junping Du, Zhe Xue</em>
-  </div>
-  <div class="publication-venue">
-    <strong>International Conference on Data Engineering (ICDE)</strong>
-  </div>
-  <div class="publication-abstract">
-    Developed GASKN, a novel unsupervised multimodal graph contrastive semantic anchor space dynamic knowledge distillation network for cross-media hash retrieval.
-  </div>
-</div>
 
-<div class="publication-item">
-  <div class="publication-title">
-    <strong>Knowledge Graph Enhanced Multimodal Transformer for Image-Text Retrieval</strong>
+  <div class="publication-year">
+    <h3 class="year-title">2022</h3>
+    
+    <div class="publication-category">
+      <h4 class="category-title">Conference Papers</h4>
+      
+      <div class="publication-card">
+        <div class="publication-header">
+          <div class="publication-type conference">Conference</div>
+          <div class="publication-year-badge">2022</div>
+        </div>
+        <div class="publication-content">
+          <h5 class="publication-title">Semantic Structure Enhanced Contrastive Adversarial Hash Network for Cross-media Representation Learning</h5>
+          <div class="publication-authors">Meiyu Liang, Junping Du, Xiaowen Cao, Yang Yu, Kangkang Lu, Zhe Xue, Min Zhang</div>
+          <div class="publication-venue">30th ACM International Conference on Multimedia</div>
+          <div class="publication-abstract">
+            <strong>Abstract:</strong> Developed SCAHN, a novel semantic structure enhanced contrastive adversarial hash network for cross-media representation learning.
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="publication-authors">
-    <em>Juncheng Zheng, Meiyu Liang, Yang Yu, Yawen Li, Zhe Xue</em>
-  </div>
-  <div class="publication-venue">
-    <strong>International Conference on Data Engineering (ICDE)</strong>
-  </div>
-  <div class="publication-abstract">
-    Proposed a multimodal knowledge-enhanced multimodal transformer combining coarse-grained and fine-grained representation learning.
-  </div>
-</div>
 
-<div class="publication-item">
-  <div class="publication-title">
-    <strong>Multimodal Knowledge Graph-guided Cross-Modal Graph Network for Image-text Retrieval</strong>
-  </div>
-  <div class="publication-authors">
-    <em>Juncheng Zheng, Meiyu Liang, Yang Yu, Junping Du, Zhe Xue</em>
-  </div>
-  <div class="publication-venue">
-    <strong>International Conference on Big Data and Smart Computing (BigComp)</strong>
-  </div>
-  <div class="publication-abstract">
-    Constructed a novel multimodal knowledge graph-guided cross-modal graph network for fine-grained and coarse-grained image-text alignment.
-  </div>
-</div>
-
-#### Journal Papers
-
-<div class="publication-item">
-  <div class="publication-title">
-    <strong>Query Aware Cross-modal Dual Contrastive Learning Network for Multi-modal Video Moment Retrieval</strong>
-  </div>
-  <div class="publication-authors">
-    <em>Mengran Yin, Meiyu Liang, Yang Yu, Xiaowen Cao, Junping Du, Zhe Xue</em>
-  </div>
-  <div class="publication-venue">
-    <strong>Journal of Software</strong>
-  </div>
-  <div class="publication-abstract">
-    Built a query-aware cross-modal contrastive learning network for multi-modal video moment retrieval (QACLN).
-  </div>
-</div>
-
-<div class="publication-item">
-  <div class="publication-title">
-    <strong>Structures Aware Fine-Grained Contrastive Adversarial Hashing for Cross-Media Retrieval</strong>
-  </div>
-  <div class="publication-authors">
-    <em>Meiyu Liang, Yawen Li, Yang Yu, Xiaowen Cao, Zhe Xue, Ang Li</em>
-  </div>
-  <div class="publication-venue">
-    <strong>IEEE Transactions on Knowledge and Data Engineering</strong>
-  </div>
-  <div class="publication-abstract">
-    Established a cross-media contrastive adversarial hash network for cross-media hashing.
-  </div>
-</div>
-
-### 2022
-
-#### Conference Papers
-
-<div class="publication-item">
-  <div class="publication-title">
-    <strong>Semantic Structure Enhanced Contrastive Adversarial Hash Network for Cross-media Representation Learning</strong>
-  </div>
-  <div class="publication-authors">
-    <em>Meiyu Liang, Junping Du, Xiaowen Cao, Yang Yu, Kangkang Lu, Zhe Xue, Min Zhang</em>
-  </div>
-  <div class="publication-venue">
-    <strong>30th ACM International Conference on Multimedia</strong>
-  </div>
-  <div class="publication-abstract">
-    Developed SCAHN, a novel semantic structure enhanced contrastive adversarial hash network for cross-media representation learning.
-  </div>
 </div>
 
 ## Education {#education}
 
-- **Doctor of Philosophy** (2025 - Present)
-  - The Hong Kong Polytechnic University
-  - Supervisor: Hongxia Yang
-  - Research Interest: LLM Agents, Multimodal RAG, MLLM
+<div class="education-container">
+  <div class="education-card">
+    <div class="education-header">
+      <div class="education-degree">Doctor of Philosophy</div>
+      <div class="education-period">2025 - Present</div>
+    </div>
+    <div class="education-content">
+      <h4 class="education-institution">The Hong Kong Polytechnic University</h4>
+      <div class="education-details">
+        <div class="education-supervisor">
+          <strong>Supervisor:</strong> Hongxia Yang
+        </div>
+        <div class="education-research">
+          <strong>Research Interest:</strong> LLM Agents, Multimodal RAG, MLLM
+        </div>
+      </div>
+    </div>
+  </div>
 
-- **Master's Degree** (2022 - 2025)
-  - Beijing University of Posts and Telecommunications
-  - Supervisor: Meiyu Liang
-  - Research: Cross-modal Retrieval, Image-text Retrieval, Video Retrieval, Federated Learning
+  <div class="education-card">
+    <div class="education-header">
+      <div class="education-degree">Master's Degree</div>
+      <div class="education-period">2022 - 2025</div>
+    </div>
+    <div class="education-content">
+      <h4 class="education-institution">Beijing University of Posts and Telecommunications</h4>
+      <div class="education-details">
+        <div class="education-supervisor">
+          <strong>Supervisor:</strong> Meiyu Liang
+        </div>
+        <div class="education-research">
+          <strong>Research:</strong> Cross-modal Retrieval, Image-text Retrieval, Video Retrieval, Federated Learning
+        </div>
+      </div>
+    </div>
+  </div>
 
-- **Bachelor's Degree** (2018 - 2022)
-  - Hainan University
-  - Major: Software Engineering
+  <div class="education-card">
+    <div class="education-header">
+      <div class="education-degree">Bachelor's Degree</div>
+      <div class="education-period">2018 - 2022</div>
+    </div>
+    <div class="education-content">
+      <h4 class="education-institution">Hainan University</h4>
+      <div class="education-details">
+        <div class="education-major">
+          <strong>Major:</strong> Software Engineering
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 ## Research Experience {#experience}
 
-### Natural Language Algorithm Engineer (10/2023 - Present)
-- **Institution**: ByteDance (E-commerce on TikTok)
-- **Department**: Backbone Construction Group for E-commerce Platform Governance
-- **Responsibilities**:
-  - Research and development of the backbone
-  - E-commerce platform content governance, model review and automatic rejection mechanism
-  - Enhanced performance of downstream tasks using pre-training techniques
-  - Developed novel pre-training approach combining LLM mask autoencoder and LLM next token prediction
-  - Achieved 7% increase in precision for downstream QA tasks
+<div class="experience-container">
+  <div class="experience-section">
+    <h3 class="section-title">Professional Experience</h3>
+    
+    <div class="experience-card">
+      <div class="experience-header">
+        <div class="experience-title">Natural Language Algorithm Engineer</div>
+        <div class="experience-period">10/2023 - Present</div>
+      </div>
+      <div class="experience-content">
+        <div class="experience-institution">ByteDance (E-commerce on TikTok)</div>
+        <div class="experience-department">Backbone Construction Group for E-commerce Platform Governance</div>
+        <div class="experience-responsibilities">
+          <h5>Key Responsibilities:</h5>
+          <ul>
+            <li>Research and development of the backbone</li>
+            <li>E-commerce platform content governance, model review and automatic rejection mechanism</li>
+            <li>Enhanced performance of downstream tasks using pre-training techniques</li>
+            <li>Developed novel pre-training approach combining LLM mask autoencoder and LLM next token prediction</li>
+            <li>Achieved 7% increase in precision for downstream QA tasks</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-### Natural Language Algorithm Engineer (04/2023 - 07/2023)
-- **Institution**: AI Research Institute, New Oriental Education & Technology Group
-- **Department**: Speech Language Group of Natural Language Processing Department
-- **Responsibilities**:
-  - Grammar error correction and intelligent question answering
-  - Optimized grammar error correction model
-  - Developed intelligent question-answering model
+    <div class="experience-card">
+      <div class="experience-header">
+        <div class="experience-title">Natural Language Algorithm Engineer</div>
+        <div class="experience-period">04/2023 - 07/2023</div>
+      </div>
+      <div class="experience-content">
+        <div class="experience-institution">AI Research Institute, New Oriental Education & Technology Group</div>
+        <div class="experience-department">Speech Language Group of Natural Language Processing Department</div>
+        <div class="experience-responsibilities">
+          <h5>Key Responsibilities:</h5>
+          <ul>
+            <li>Grammar error correction and intelligent question answering</li>
+            <li>Optimized grammar error correction model</li>
+            <li>Developed intelligent question-answering model</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
-### Academic Projects
+  <div class="experience-section">
+    <h3 class="section-title">Academic Projects</h3>
+    
+    <div class="project-card">
+      <div class="project-role">Project Member</div>
+      <div class="project-title">Cross-media Education Big Data Personalised Recommendation and Search System based on Deep Learning</div>
+      <div class="project-funding">National Natural Science Foundation of China</div>
+    </div>
 
-- **Project Member**: Cross-media Education Big Data Personalised Recommendation and Search System based on Deep Learning (National Natural Science Foundation of China)
-- **Project Member**: Cross-modal Big Data Semantic Recognition and Search based on MindSpore (Chinese Association for Artificial Intelligence - Huawei MindSpore Academic Award Fund)
-- **Project Leader**: Unified Semantic Representation Learning and Intelligent Search of Cross-Media Data Enhanced by Multi-modal Semantic Fusion (Graduate Innovation and Entrepreneurship Programme, Type A)
-- **Project Member**: A Federated Learning Method for Quality and Efficiency Optimization of Distributed Associative Big Data (National Natural Science Foundation of China)
+    <div class="project-card">
+      <div class="project-role">Project Member</div>
+      <div class="project-title">Cross-modal Big Data Semantic Recognition and Search based on MindSpore</div>
+      <div class="project-funding">Chinese Association for Artificial Intelligence - Huawei MindSpore Academic Award Fund</div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-role">Project Leader</div>
+      <div class="project-title">Unified Semantic Representation Learning and Intelligent Search of Cross-Media Data Enhanced by Multi-modal Semantic Fusion</div>
+      <div class="project-funding">Graduate Innovation and Entrepreneurship Programme, Type A</div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-role">Project Member</div>
+      <div class="project-title">A Federated Learning Method for Quality and Efficiency Optimization of Distributed Associative Big Data</div>
+      <div class="project-funding">National Natural Science Foundation of China</div>
+    </div>
+  </div>
+</div>
 
 ## Awards & Honors {#awards}
 
-### 2024
-- **National Postgraduate Scholarship** (11/2024)
-- **First Prize of Scholarship for Postgraduate Students, Beijing University of Posts and Telecommunications** (11/2024)
+<div class="awards-container">
+  <div class="awards-year">
+    <h3 class="awards-year-title">2024</h3>
+    <div class="awards-list">
+      <div class="award-item">
+        <div class="award-icon">🏆</div>
+        <div class="award-content">
+          <div class="award-title">National Postgraduate Scholarship</div>
+          <div class="award-date">November 2024</div>
+        </div>
+      </div>
+      <div class="award-item">
+        <div class="award-icon">🥇</div>
+        <div class="award-content">
+          <div class="award-title">First Prize of Scholarship for Postgraduate Students</div>
+          <div class="award-institution">Beijing University of Posts and Telecommunications</div>
+          <div class="award-date">November 2024</div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-### 2023
-- **Shenzhen Stock Exchange Enterprise Scholarship** (11/2023)
-- **First Prize of Scholarship for Postgraduate Students, Beijing University of Posts and Telecommunications** (11/2023)
+  <div class="awards-year">
+    <h3 class="awards-year-title">2023</h3>
+    <div class="awards-list">
+      <div class="award-item">
+        <div class="award-icon">💼</div>
+        <div class="award-content">
+          <div class="award-title">Shenzhen Stock Exchange Enterprise Scholarship</div>
+          <div class="award-date">November 2023</div>
+        </div>
+      </div>
+      <div class="award-item">
+        <div class="award-icon">🥇</div>
+        <div class="award-content">
+          <div class="award-title">First Prize of Scholarship for Postgraduate Students</div>
+          <div class="award-institution">Beijing University of Posts and Telecommunications</div>
+          <div class="award-date">November 2023</div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-### 2022
-- **First Prize of Scholarship for Postgraduate Students, Beijing University of Posts and Telecommunications** (11/2022)
-- **Outstanding Graduate of Hainan University** (09/2022)
+  <div class="awards-year">
+    <h3 class="awards-year-title">2022</h3>
+    <div class="awards-list">
+      <div class="award-item">
+        <div class="award-icon">🥇</div>
+        <div class="award-content">
+          <div class="award-title">First Prize of Scholarship for Postgraduate Students</div>
+          <div class="award-institution">Beijing University of Posts and Telecommunications</div>
+          <div class="award-date">November 2022</div>
+        </div>
+      </div>
+      <div class="award-item">
+        <div class="award-icon">🎓</div>
+        <div class="award-content">
+          <div class="award-title">Outstanding Graduate</div>
+          <div class="award-institution">Hainan University</div>
+          <div class="award-date">September 2022</div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-### 2021
-- **First Prize in the Provincial Contest in Hainan in the 2020 China Collegiate Computing Contest - Group Programming Ladder Tournament** (01/2021)
+  <div class="awards-year">
+    <h3 class="awards-year-title">2021</h3>
+    <div class="awards-list">
+      <div class="award-item">
+        <div class="award-icon">🥇</div>
+        <div class="award-content">
+          <div class="award-title">First Prize in the Provincial Contest</div>
+          <div class="award-institution">Hainan in the 2020 China Collegiate Computing Contest - Group Programming Ladder Tournament</div>
+          <div class="award-date">January 2021</div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-### 2020
-- **Merit Student in the Academic Year 2019-2020, Hainan University** (11/2020)
-- **First-class Comprehensive Scholarship in the Academic Year 2019-2020, Hainan University** (11/2020)
-- **Second Prize in Hainan Competition Area, National 3D Innovative Design Competition** (10/2020)
-- **Third Prize in South China in the 2020 China Collegiate Computing Contest - WeChat Mini Programme Application Development Competition**
-- **Third Prize in the Intelligent Manufacturing Innovation and Creativity Contest in the 5th National Applied Talents Comprehensive Skills Competition, Hainan University** (12/2019)
+  <div class="awards-year">
+    <h3 class="awards-year-title">2020</h3>
+    <div class="awards-list">
+      <div class="award-item">
+        <div class="award-icon">👨‍🎓</div>
+        <div class="award-content">
+          <div class="award-title">Merit Student</div>
+          <div class="award-institution">Hainan University</div>
+          <div class="award-date">November 2020</div>
+        </div>
+      </div>
+      <div class="award-item">
+        <div class="award-icon">💰</div>
+        <div class="award-content">
+          <div class="award-title">First-class Comprehensive Scholarship</div>
+          <div class="award-institution">Hainan University</div>
+          <div class="award-date">November 2020</div>
+        </div>
+      </div>
+      <div class="award-item">
+        <div class="award-icon">🥈</div>
+        <div class="award-content">
+          <div class="award-title">Second Prize in Hainan Competition Area</div>
+          <div class="award-institution">National 3D Innovative Design Competition</div>
+          <div class="award-date">October 2020</div>
+        </div>
+      </div>
+      <div class="award-item">
+        <div class="award-icon">🥉</div>
+        <div class="award-content">
+          <div class="award-title">Third Prize in South China</div>
+          <div class="award-institution">2020 China Collegiate Computing Contest - WeChat Mini Programme Application Development Competition</div>
+        </div>
+      </div>
+      <div class="award-item">
+        <div class="award-icon">🥉</div>
+        <div class="award-content">
+          <div class="award-title">Third Prize in the Intelligent Manufacturing Innovation and Creativity Contest</div>
+          <div class="award-institution">5th National Applied Talents Comprehensive Skills Competition, Hainan University</div>
+          <div class="award-date">December 2019</div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-### 2019
-- **Special Comprehensive Scholarship in the Academic Year 2018-2019, Hainan University** (11/2019)
+  <div class="awards-year">
+    <h3 class="awards-year-title">2019</h3>
+    <div class="awards-list">
+      <div class="award-item">
+        <div class="award-icon">💎</div>
+        <div class="award-content">
+          <div class="award-title">Special Comprehensive Scholarship</div>
+          <div class="award-institution">Hainan University</div>
+          <div class="award-date">November 2019</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 ## Others {#others}
 
-### Research Areas
-- Cross-modal Retrieval, Image-text Retrieval, Video Retrieval
-- Multimodal Learning, Knowledge Distillation, Hash Learning
-- Federated Learning, Natural Language Processing
-- Large Language Models, RAG (Retrieval-Augmented Generation)
+<div class="others-container">
+  <div class="others-section">
+    <h3 class="others-section-title">Research Areas</h3>
+    <div class="research-areas">
+      <div class="research-area-item">
+        <div class="research-icon">🔍</div>
+        <div class="research-text">Cross-modal Retrieval, Image-text Retrieval, Video Retrieval</div>
+      </div>
+      <div class="research-area-item">
+        <div class="research-icon">🧠</div>
+        <div class="research-text">Multimodal Learning, Knowledge Distillation, Hash Learning</div>
+      </div>
+      <div class="research-area-item">
+        <div class="research-icon">🌐</div>
+        <div class="research-text">Federated Learning, Natural Language Processing</div>
+      </div>
+      <div class="research-area-item">
+        <div class="research-icon">🤖</div>
+        <div class="research-text">Large Language Models, RAG (Retrieval-Augmented Generation)</div>
+      </div>
+    </div>
+  </div>
 
-### Software & Patents
-- **Software Copyright**: Quangou Hainan v1.0 (Register No.: 2023SR0154035)
-- **Utility Model Patent**: An Intelligent Huarong Dao Storage Cabinet (Register No.: 201922199084.7)
-- **Patent**: A method and device for cross-modal hash retrieval based on multiple comparisons and dual-oppositional confrontation (Register No.: 202310700719.5)
+  <div class="others-section">
+    <h3 class="others-section-title">Software & Patents</h3>
+    <div class="patents-list">
+      <div class="patent-item">
+        <div class="patent-icon">💾</div>
+        <div class="patent-content">
+          <div class="patent-title">Software Copyright</div>
+          <div class="patent-name">Quangou Hainan v1.0</div>
+          <div class="patent-number">Register No.: 2023SR0154035</div>
+        </div>
+      </div>
+      <div class="patent-item">
+        <div class="patent-icon">🔧</div>
+        <div class="patent-content">
+          <div class="patent-title">Utility Model Patent</div>
+          <div class="patent-name">An Intelligent Huarong Dao Storage Cabinet</div>
+          <div class="patent-number">Register No.: 201922199084.7</div>
+        </div>
+      </div>
+      <div class="patent-item">
+        <div class="patent-icon">📋</div>
+        <div class="patent-content">
+          <div class="patent-title">Patent</div>
+          <div class="patent-name">A method and device for cross-modal hash retrieval based on multiple comparisons and dual-oppositional confrontation</div>
+          <div class="patent-number">Register No.: 202310700719.5</div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-### Languages & Interests
-- **Languages**: Mandarin (native), English (IELTS 6.5)
-- **Interests**: Piano, street dance, basketball, badminton, table tennis
+  <div class="others-section">
+    <h3 class="others-section-title">Languages & Interests</h3>
+    <div class="languages-interests">
+      <div class="languages">
+        <h4 class="subsection-title">Languages</h4>
+        <div class="language-item">
+          <div class="language-icon">🇨🇳</div>
+          <div class="language-text">Mandarin (native)</div>
+        </div>
+        <div class="language-item">
+          <div class="language-icon">🇺🇸</div>
+          <div class="language-text">English (IELTS 6.5)</div>
+        </div>
+      </div>
+      <div class="interests">
+        <h4 class="subsection-title">Interests</h4>
+        <div class="interests-grid">
+          <div class="interest-item">
+            <div class="interest-icon">🎹</div>
+            <div class="interest-text">Piano</div>
+          </div>
+          <div class="interest-item">
+            <div class="interest-icon">💃</div>
+            <div class="interest-text">Street Dance</div>
+          </div>
+          <div class="interest-item">
+            <div class="interest-icon">🏀</div>
+            <div class="interest-text">Basketball</div>
+          </div>
+          <div class="interest-item">
+            <div class="interest-icon">🏸</div>
+            <div class="interest-text">Badminton</div>
+          </div>
+          <div class="interest-item">
+            <div class="interest-icon">🏓</div>
+            <div class="interest-text">Table Tennis</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 ---
 
