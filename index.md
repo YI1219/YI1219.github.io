@@ -209,7 +209,7 @@ classes: wide
     <div class="experience-card">
       <div class="experience-header">
         <div class="experience-title">Natural Language Algorithm Engineer</div>
-        <div class="experience-period">10/2023 - Present</div>
+        <div class="experience-period">10/2023 - 11/2024</div>
       </div>
       <div class="experience-content">
         <div class="experience-institution">ByteDance (E-commerce on TikTok)</div>
