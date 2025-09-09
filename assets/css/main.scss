@@ -1062,6 +1062,7 @@ p, li, ul, ol {
     width: 100% !important;
     max-width: 100% !important;
     margin-left: 0 !important;
+    margin-right: 0 !important;
     padding: 20px !important;
   }
 
@@ -1148,6 +1149,78 @@ p, li, ul, ol {
 
   h3, .h3 {
     font-size: 1.2em !important;
+  }
+
+  /* 移动端作者信息修复 */
+  .author__urls-wrapper {
+    position: relative !important;
+    display: block !important;
+    margin: 20px 0 !important;
+  }
+
+  .author__urls-wrapper button {
+    display: none !important;
+  }
+
+  .author__urls {
+    display: block !important;
+    position: relative !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    width: 100% !important;
+  }
+
+  .author__urls::before,
+  .author__urls::after {
+    display: none !important;
+  }
+
+  .author__urls ul {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 15px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style: none !important;
+    flex-wrap: wrap !important;
+  }
+
+  .author__urls li {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: auto !important;
+  }
+
+  .author__urls a {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    padding: 10px 16px !important;
+    background: linear-gradient(135deg, #3498db, #2980b9) !important;
+    color: white !important;
+    border-radius: 20px !important;
+    text-decoration: none !important;
+    font-size: 0.9em !important;
+    font-weight: 500 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 2px 8px rgba(52, 152, 219, 0.2) !important;
+    white-space: nowrap !important;
+  }
+
+  .author__urls a:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3) !important;
+    background: linear-gradient(135deg, #2980b9, #1f5f8b) !important;
+  }
+
+  /* 隐藏Follow按钮 */
+  .page__footer-follow {
+    display: none !important;
   }
 }
 
