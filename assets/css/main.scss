@@ -1051,7 +1051,9 @@ p, li, ul, ol {
   padding: 0 !important;
 }
 
-/* 响应式设计 */
+/* 响应式设计 - 多种检测方式 */
+
+/* 方式1: 像素断点检测 */
 @media (max-width: 768px) {
   /* 移动端布局调整 - 完全隐藏侧边栏 */
   .sidebar {
@@ -1260,6 +1262,37 @@ p, li, ul, ol {
     padding: 15px !important;
   }
 
+  /* 超小屏幕作者信息修复 */
+  .author__urls-wrapper button {
+    display: none !important;
+  }
+
+  .author__urls {
+    display: block !important;
+    position: relative !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  .author__urls ul {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 10px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style: none !important;
+  }
+
+  .author__urls a {
+    padding: 8px 14px !important;
+    font-size: 0.85em !important;
+  }
+
   .publication-header,
   .education-header,
   .experience-header {
@@ -1341,8 +1374,9 @@ p, li, ul, ol {
   }
 }
 
-/* 触摸设备优化 */
+/* 方式2: 触摸设备检测 */
 @media (hover: none) and (pointer: coarse) {
+  /* 触摸设备优化 */
   .author__urls-wrapper a {
     padding: 12px 24px !important;
     font-size: 1em !important;
@@ -1370,6 +1404,104 @@ p, li, ul, ol {
   .research-area-item:hover,
   .patent-item:hover {
     transform: none !important;
+  }
+}
+
+/* 方式3: 设备方向检测 */
+@media (orientation: portrait) {
+  /* 竖屏设备优化 */
+  .masthead__menu {
+    gap: 15px !important;
+  }
+  
+  .author__urls ul {
+    flex-direction: column !important;
+    gap: 10px !important;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+  /* 横屏且高度较小的设备 */
+  .masthead {
+    height: 50px !important;
+  }
+  
+  body {
+    padding-top: 50px !important;
+  }
+  
+  .masthead__inner-wrap {
+    height: 50px !important;
+  }
+}
+
+/* 方式4: 高分辨率设备检测 */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  /* Retina/高分辨率屏幕优化 */
+  .author__avatar img {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+}
+
+/* 方式5: 现代CSS特性检测 */
+@supports (display: grid) {
+  .interests-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)) !important;
+  }
+}
+
+@supports not (display: grid) {
+  .interests-grid {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+  
+  .interest-item {
+    flex: 0 0 auto !important;
+    margin: 5px !important;
+  }
+}
+
+/* 方式6: 减少动画偏好检测 */
+@media (prefers-reduced-motion: reduce) {
+  .particle,
+  .particle-line,
+  .mouse-particle,
+  .mouse-trail {
+    animation: none !important;
+    transition: none !important;
+  }
+  
+  .publication-card,
+  .education-card,
+  .experience-card,
+  .project-card,
+  .award-item,
+  .research-area-item,
+  .patent-item {
+    transition: none !important;
+  }
+  
+  .author__avatar img:hover,
+  .author__urls-wrapper a:hover,
+  .masthead__menu-item a:hover {
+    transform: none !important;
+  }
+}
+
+/* 方式7: 暗色模式偏好检测 */
+@media (prefers-color-scheme: dark) {
+  .sidebar {
+    background: rgba(30, 30, 30, 0.95) !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.1) !important;
+  }
+  
+  .masthead {
+    background: rgba(30, 30, 30, 0.85) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
   }
 }
 
